@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.30f02c06.js",
+    "main.js": "/personal-homepage/static/js/main.5ead4819.js",
     "static/media/zdjątko2.jpg": "/personal-homepage/static/media/zdjątko2.9ae342b0b1a3b43395e9.jpg",
+    "static/media/Fill-51.svg": "/personal-homepage/static/media/Fill-51.a49c9555ab7efd63cbdbd38f559be5ce.svg",
     "index.html": "/personal-homepage/index.html",
-    "main.30f02c06.js.map": "/personal-homepage/static/js/main.30f02c06.js.map"
+    "static/media/LinkedIN_black.svg": "/personal-homepage/static/media/LinkedIN_black.2c26b104242a1c77c13c1498fc1cd787.svg",
+    "main.5ead4819.js.map": "/personal-homepage/static/js/main.5ead4819.js.map"
   },
   "entrypoints": [
-    "static/js/main.30f02c06.js"
+    "static/js/main.5ead4819.js"
   ]
 }
