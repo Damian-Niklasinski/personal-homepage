@@ -7,7 +7,6 @@ export const theme = {
         iron: "#D1D5DA",
         white: "#FFFFFF",
         mercury: "#E5E5E5",
-        scienceblue: "#0366D6",
     },
     breakpoint: {},
   };
