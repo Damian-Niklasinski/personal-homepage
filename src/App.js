@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import ProjectsList from "./components/ProjectsList";
 import SkillsList from "./components/SkillsList";
@@ -23,6 +24,7 @@ function App() {
       />
       <Portfolio />
       <ProjectsList />
+      <Footer />
     </Wrapper>
   );
 }
