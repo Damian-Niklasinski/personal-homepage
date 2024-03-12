@@ -40,7 +40,7 @@ export const ThirdItem = styled.p`
     margin-top: 35px;
 `;
 
-export const HireMeButton = styled.button`
+export const HireMeButton = styled.a`
     cursor: pointer;
     width: 154px;
     height: 49px;
