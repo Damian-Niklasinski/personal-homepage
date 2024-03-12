@@ -12,7 +12,7 @@ const Header = ({ HeaderContent }) => (
             <FirstItem>THIS IS</FirstItem>
             <SecondItem>Damian Niklasiński</SecondItem>
             <ThirdItem>👨🏻‍💻 I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities.</ThirdItem>
-            <HireMeButton href={`mailto: damianiklasinski@gmail.com`} title="damianiklasinski@gmail.com">
+            <HireMeButton href="mailto: damianiklasinski@gmail.com" title="damianiklasinski@gmail.com">
                 <HireImage src={mailIcon} alt="MailIcon" />
                 <HireText>Hire Me</HireText>
             </HireMeButton>
