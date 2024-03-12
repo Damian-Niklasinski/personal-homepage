@@ -1,4 +1,5 @@
 import Portfolio from "./components/Portfolio";
+import ProjectsList from "./components/ProjectsList";
 import SkillsList from "./components/SkillsList";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Wrapper/Header";
@@ -21,6 +22,7 @@ function App() {
         skills={skills.iWantToLearnSkills}
       />
       <Portfolio />
+      <ProjectsList />
     </Wrapper>
   );
 }
