@@ -10,6 +10,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Inter', sans-serif;
     word-break: break-word;
-    background-color: rgba(36, 34, 34, 0.835);
+    background-color: ${({theme}) => theme.color.liliac};
 }
 `;
