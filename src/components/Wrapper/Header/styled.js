@@ -7,16 +7,28 @@ export const StyledHeader = styled.header`
     display: grid;
     grid-template-columns: auto 1fr;
     grid-column-gap: 72px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        grid-template-columns: none;
+    }
 `;
 
 export const StyledImage = styled.img`
     width: 398px;
     height: 398px;
     border-radius: 50%;
-    grid-area: 1 / 1 / last-line /1;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        width: 128px;
+        height: 128px;
+    }
 `;
 
-export const HeaderItems = styled.div``;
+export const HeaderItems = styled.div`
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        margin-top: 16px;
+    }
+`;
 
 export const FirstItem = styled.p`
     font-size: 12px;
@@ -39,6 +51,10 @@ export const ThirdItem = styled.p`
     line-height: 28px;
     letter-spacing: 5%;
     margin-top: 35px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        margin-top: 0px;
+    }
 `;
 
 export const HireMeButton = styled.a`
