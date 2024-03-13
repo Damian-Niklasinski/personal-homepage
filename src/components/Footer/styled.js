@@ -5,6 +5,10 @@ import { ReactComponent as LinkedinIcon } from "../../images/LinkedIN_black.svg"
 export const StyledFooter = styled.footer`
     max-width: 1216px;
     margin: 120px auto 109px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        margin: 48px 16px 31px;
+    }
 `;
 
 export const StyledContainer = styled.div`
@@ -18,6 +22,10 @@ export const StyledCaption = styled.caption`
     text-transform: uppercase;
     color: ${({ theme }) => theme.color.slategray};
     margin-bottom: 24px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        margin-bottom: 12px;
+    }
 `;
 
 export const StyledLink = styled.a`
@@ -35,6 +43,10 @@ export const StyledParagraph = styled.p`
     color: ${({ theme }) => theme.color.mineshaft};
     line-height: 26px;
     margin-top: 24px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        margin-top: 12px;
+    }
 `;
 
 export const StyledButtonsContainer = styled.div`
@@ -43,6 +55,10 @@ export const StyledButtonsContainer = styled.div`
     display: grid;
     grid-template-columns: min-content min-content;
     grid-gap: 26px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        margin-top: 40px;
+    }
 `;
 
 const LinkStyle = () => {
