@@ -9,6 +9,11 @@ export const StyledProjectList = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
 `;
 
 export const StyledProjectListItem = styled.li`
