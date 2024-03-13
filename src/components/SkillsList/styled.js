@@ -30,7 +30,7 @@ export const StyledList = styled.ul`
     }
 
     @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 `;
 
