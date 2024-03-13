@@ -6,9 +6,7 @@ const Header = ({ HeaderContent }) => (
     <StyledHeader>
         <StyledImage src={myImage} alt="My picture" />
         <HeaderItems>
-            <div>
-                {HeaderContent}
-            </div>
+            {HeaderContent}
             <FirstItem>THIS IS</FirstItem>
             <SecondItem>Damian Niklasiński</SecondItem>
             <ThirdItem>👨🏻‍💻 I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities.</ThirdItem>

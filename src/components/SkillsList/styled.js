@@ -24,6 +24,14 @@ export const StyledList = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 8px 115px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.tablet}) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 `;
 
 export const StyledListItem = styled.li`

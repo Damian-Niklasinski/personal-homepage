@@ -13,6 +13,7 @@ export const StyledImage = styled.img`
     width: 398px;
     height: 398px;
     border-radius: 50%;
+    grid-area: 1 / 1 / last-line /1;
 `;
 
 export const HeaderItems = styled.div``;
