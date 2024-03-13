@@ -5,6 +5,10 @@ export const ThemeButtonContainer = styled.div`
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 65px;
+
+  @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        display: none;
+    }
 `;
 
 export const StyledButtonText = styled.span`
