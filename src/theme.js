@@ -10,5 +10,8 @@ export const theme = {
         black: "#000000",
 
     },
-    breakpoint: {},
+    breakpoint: {
+        mobile: "767px",
+        tablet: "1250px",
+    },
   };
