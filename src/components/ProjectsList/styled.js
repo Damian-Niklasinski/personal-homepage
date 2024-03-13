@@ -27,6 +27,10 @@ export const StyledProjectListItem = styled.li`
     &:hover {
         border: 6px solid #0366D633
     }
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        padding: 42px;
+    }
 `;
 
 export const StyledProjectTitle = styled.h3`
