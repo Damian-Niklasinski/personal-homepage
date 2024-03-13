@@ -10,6 +10,7 @@ export const StyledHeader = styled.header`
 
     @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
         grid-template-columns: none;
+        margin-top: 34px;
     }
 `;
 
