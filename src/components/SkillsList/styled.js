@@ -8,6 +8,10 @@ export const StyledArticle = styled.article`
     box-shadow: 0px -2px 50px 0px #090A3305;
     border-radius: 4px;
     padding: 35px;
+
+    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+        padding: 16px;
+    }
 `;
 
 export const StyledTitle = styled.h1`
