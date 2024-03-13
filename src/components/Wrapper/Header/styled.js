@@ -19,8 +19,8 @@ export const StyledImage = styled.img`
     border-radius: 50%;
 
     @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
-        width: 128px;
-        height: 128px;
+        width: 250px;
+        height: 250px;
     }
 `;
 
