@@ -5,13 +5,13 @@ import SunIcon from "../../../images/sun-icon.svg"
 
 const ChangeThemeButton = () => {
     const dispatch = useDispatch();
-    const darkTheme = useSelector(selectTheme);
+    const $darkTheme = useSelector(selectTheme);
 
     return (
         <ThemeButtonContainer>
-            <StyledButtonText>DARK MODE {darkTheme ? "ON" : "OFF"}</StyledButtonText>
+            <StyledButtonText>DARK MODE {$darkTheme ? "ON" : "OFF"}</StyledButtonText>
             <StyledThemeButton onClick={() => dispatch(toggleTheme())}>
-                <StyledIconContainer darkTheme={darkTheme}>
+                <StyledIconContainer $darkTheme={$darkTheme}>
                     <StyledSunIcon src={SunIcon} alt="SunIcon"/>
                 </StyledIconContainer>
             </StyledThemeButton>
