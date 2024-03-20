@@ -35,7 +35,7 @@ export const StyledIconContainer = styled.div`
   background-color: ${({ theme }) => theme.color.slategray};
   transition-duration: 250ms;
 
-  ${({ darkTheme }) => darkTheme && css`
+  ${({ $darkTheme }) => $darkTheme && css`
     transform: translateX(100%);
   `}
 `;
