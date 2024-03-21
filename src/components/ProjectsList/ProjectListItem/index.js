@@ -1,11 +1,14 @@
 import { StyledListDescription, StyledListHeader, StyledListItem } from "./styled";
 
-const ProjectListItem = () => {
+const ProjectListItem = ({title, description, demoLink, codeLink}) => {
     return (
         <StyledListItem>
-            <StyledListHeader>Movies Browser</StyledListHeader>
-            <StyledListDescription>Project description, e.g. website where you can search for favourite movies and people. Project description, e.g. website where you can search.</StyledListDescription>
-            <StyledListDescription>Lorem Ipsum</StyledListDescription>
+            <StyledListHeader>{title}</StyledListHeader>
+            <StyledListDescription>{description}</StyledListDescription>
+            <StyledListDescription>
+                {`Demo: ${demoLink}`}<br />
+                {`Code: ${codeLink}`}
+            </StyledListDescription>
         </StyledListItem>
     )
 };
