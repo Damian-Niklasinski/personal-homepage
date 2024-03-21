@@ -1,8 +1,8 @@
 import { StyledWrapper } from "./styled";
 
 
-const Wrapper = ({ children }) => (
-    <StyledWrapper>
+const Wrapper = ({ children, darkTheme }) => (
+    <StyledWrapper $darkTheme={darkTheme}>
         {children}
     </StyledWrapper>
 );
