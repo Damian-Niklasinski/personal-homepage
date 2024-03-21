@@ -6,6 +6,7 @@ export const StyledWrapper = styled.div`
     font-family: 'Inter', sans-serif;
     word-break: break-word;
     background-color: ${({ theme }) => theme.color.liliac};
+    transition-duration: 1s;
 
     ${({ $darkTheme }) => $darkTheme && css`
     background-color: ${({ theme }) => theme.color.black};
