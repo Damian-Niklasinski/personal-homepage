@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.e45fb676.js",
+    "main.js": "/personal-homepage/static/js/main.01f8e1b3.js",
     "static/media/zdjątko2.jpg": "/personal-homepage/static/media/zdjątko2.9ae342b0b1a3b43395e9.jpg",
     "static/media/sun-icon.svg": "/personal-homepage/static/media/sun-icon.e3adea52b4e28ceb7b8dabc8fae26dc5.svg",
     "static/media/Fill-51.svg": "/personal-homepage/static/media/Fill-51.a49c9555ab7efd63cbdbd38f559be5ce.svg",
     "index.html": "/personal-homepage/index.html",
     "static/media/LinkedIN_black.svg": "/personal-homepage/static/media/LinkedIN_black.2c26b104242a1c77c13c1498fc1cd787.svg",
-    "main.e45fb676.js.map": "/personal-homepage/static/js/main.e45fb676.js.map"
+    "main.01f8e1b3.js.map": "/personal-homepage/static/js/main.01f8e1b3.js.map"
   },
   "entrypoints": [
-    "static/js/main.e45fb676.js"
+    "static/js/main.01f8e1b3.js"
   ]
 }
