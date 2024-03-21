@@ -83,6 +83,7 @@ export const HireMeButton = styled.a`
     gap: 16px;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 `;
 
 export const HireImage = styled.img`
