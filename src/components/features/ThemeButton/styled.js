@@ -16,6 +16,10 @@ export const StyledButtonText = styled.span`
   font-size: 12px;
   font-weight: 700;
   margin-right: 12px;
+
+  ${({ $darkTheme }) => $darkTheme && css`
+    color: ${({ theme }) => theme.color.white};
+  `}
 `;
 
 export const StyledThemeButton = styled.button`

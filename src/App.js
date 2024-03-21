@@ -17,7 +17,7 @@ function App() {
   return (
     <Wrapper darkTheme={darkTheme}>
       <Header
-        HeaderContent={<ThemeButton />}
+        HeaderContent={<ThemeButton darkTheme={darkTheme} />}
         darkTheme={darkTheme}
       />
       <SkillsList

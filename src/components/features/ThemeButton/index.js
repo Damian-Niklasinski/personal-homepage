@@ -9,7 +9,7 @@ const ChangeThemeButton = () => {
 
     return (
         <ThemeButtonContainer>
-            <StyledButtonText>DARK MODE {darkTheme ? "ON" : "OFF"}</StyledButtonText>
+            <StyledButtonText $darkTheme={darkTheme}>DARK MODE {darkTheme ? "ON" : "OFF"}</StyledButtonText>
             <StyledThemeButton onClick={() => dispatch(toggleTheme())}>
                 <StyledIconContainer $darkTheme={darkTheme}>
                     <StyledSunIcon src={SunIcon} alt="SunIcon"/>
