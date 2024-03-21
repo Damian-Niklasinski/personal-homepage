@@ -7,9 +7,4 @@ export const GlobalStyle = createGlobalStyle`
   *, ::after, ::before {
     box-sizing: inherit;
   }
-  body {
-    font-family: 'Inter', sans-serif;
-    word-break: break-word;
-    background-color: ${({theme}) => theme.color.liliac};
-}
 `;
