@@ -8,7 +8,7 @@ export const theme = {
         white: "#FFFFFF",
         mercury: "#E5E5E5",
         black: "#000000",
-
+        dodgerblue: "#2188FF",
     },
     breakpoint: {
         mobile: "767px",
