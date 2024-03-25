@@ -1,4 +1,4 @@
-import myImage from "../../../images/zdjątko2.jpg"
+import myImage from "../../../images/meImage2.jpg"
 import mailIcon from "../../../images/Message.png"
 import { FirstItem, HeaderItems, HireImage, HireMeButton, HireText, SecondItem, StyledHeader, StyledImage, ThirdItem } from "./styled";
 
