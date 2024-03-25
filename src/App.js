@@ -31,7 +31,7 @@ function App() {
         darkTheme={darkTheme}
       />
       <Portfolio darkTheme={darkTheme} />
-      <ProjectsList />
+      <ProjectsList darkTheme={darkTheme} />
       <Footer />
     </Wrapper>
   );

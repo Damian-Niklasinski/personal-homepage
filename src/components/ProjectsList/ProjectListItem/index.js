@@ -1,13 +1,25 @@
 import { StyledListDescription, StyledListHeader, StyledListItem, StyledListLink } from "./styled";
 
-const ProjectListItem = ({title, description, demoLink, codeLink}) => {
+const ProjectListItem = ({ title, description, demoLink, codeLink, darkTheme }) => {
     return (
-        <StyledListItem>
-            <StyledListHeader>{title}</StyledListHeader>
-            <StyledListDescription>{description}</StyledListDescription>
-            <StyledListDescription>
-                {`Demo: `} <StyledListLink href={demoLink}>{demoLink}</StyledListLink><br />
-                {`Code: `} <StyledListLink href={codeLink}>{codeLink}</StyledListLink>
+        <StyledListItem $darkTheme={darkTheme}>
+            <StyledListHeader $darkTheme={darkTheme}>{title}</StyledListHeader>
+            <StyledListDescription $darkTheme={darkTheme}>{description}</StyledListDescription>
+            <StyledListDescription $darkTheme={darkTheme}>
+                {`Demo: `}
+                <StyledListLink
+                    href={demoLink}
+                    $darkTheme={darkTheme}
+                >
+                    {demoLink}
+                </StyledListLink><br />
+                {`Code: `}
+                <StyledListLink
+                    href={codeLink}
+                    $darkTheme={darkTheme}
+                >
+                    {codeLink}
+                </StyledListLink>
             </StyledListDescription>
         </StyledListItem>
     )
