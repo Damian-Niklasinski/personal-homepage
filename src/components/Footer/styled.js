@@ -6,7 +6,7 @@ export const StyledFooter = styled.footer`
     max-width: 1216px;
     margin: 120px auto 109px;
 
-    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         margin: 48px 16px 31px;
     }
 `;
@@ -23,7 +23,11 @@ export const StyledCaption = styled.caption`
     color: ${({ theme }) => theme.color.slategray};
     margin-bottom: 24px;
 
-    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+    ${({ $darkTheme }) => $darkTheme && css`
+        color: ${({ theme }) => theme.color.white};
+    `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         margin-bottom: 12px;
     }
 `;
@@ -35,6 +39,10 @@ export const StyledLink = styled.a`
     color: ${({ theme }) => theme.color.mineshaft};
     text-decoration: none;
     transition-duration: 250ms;
+
+    ${({ $darkTheme }) => $darkTheme && css`
+        color: ${({ theme }) => theme.color.white};
+    `}
 `;
 
 export const StyledParagraph = styled.p`
@@ -44,7 +52,11 @@ export const StyledParagraph = styled.p`
     line-height: 26px;
     margin-top: 24px;
 
-    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+    ${({ $darkTheme }) => $darkTheme && css`
+        color: ${({ theme }) => theme.color.white};
+    `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         margin-top: 12px;
     }
 `;
@@ -56,7 +68,7 @@ export const StyledButtonsContainer = styled.div`
     grid-template-columns: min-content min-content;
     grid-gap: 26px;
 
-    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         margin-top: 40px;
     }
 `;
@@ -65,10 +77,14 @@ const LinkStyle = () => {
     return css`
     & path {
         transition-duration: 200ms;
-        fill: ${({theme}) => theme.color.black};
+        fill: ${({ theme }) => theme.color.black};
+
+        ${({ $darkTheme }) => $darkTheme && css`
+        fill: ${({ theme }) => theme.color.white};
+    `}
     }
     &:hover path {
-        fill: ${({theme}) => theme.color.scienceblue};
+        fill: ${({ theme }) => theme.color.scienceblue};
     }
     `;
 }
