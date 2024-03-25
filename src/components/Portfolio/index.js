@@ -1,11 +1,11 @@
 import { StyledHeader, StyledImage, StyledSubTitle, StyledTitle } from "./styled";
 import gitIMG from "../../images/Shape.png"
 
-const Portfolio = () => (
-    <StyledHeader>
-        <StyledImage src={gitIMG} alt="GitIMG"/>
-        <StyledTitle>Portfolio</StyledTitle>
-        <StyledSubTitle>My recent projects</StyledSubTitle>
+const Portfolio = ({ darkTheme }) => (
+    <StyledHeader $darkTheme={darkTheme}>
+        <StyledImage src={gitIMG} alt="GitIMG" />
+        <StyledTitle $darkTheme={darkTheme}>Portfolio</StyledTitle>
+        <StyledSubTitle $darkTheme={darkTheme}>My recent projects</StyledSubTitle>
     </StyledHeader>
 );
 

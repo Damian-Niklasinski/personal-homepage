@@ -30,7 +30,7 @@ function App() {
         skills={skills.iWantToLearnSkills}
         darkTheme={darkTheme}
       />
-      <Portfolio />
+      <Portfolio darkTheme={darkTheme} />
       <ProjectsList />
       <Footer />
     </Wrapper>
