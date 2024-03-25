@@ -9,7 +9,7 @@ export const StyledWrapper = styled.div`
     transition-duration: 1s;
 
     ${({ $darkTheme }) => $darkTheme && css`
-    background-color: ${({ theme }) => theme.color.black};
+    background-color: ${({ theme }) => theme.color.mineshaft};
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
