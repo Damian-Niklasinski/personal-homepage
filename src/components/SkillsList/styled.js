@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const StyledArticle = styled.article`
     max-width: 1216px;
@@ -9,7 +9,11 @@ export const StyledArticle = styled.article`
     border-radius: 4px;
     padding: 35px;
 
-    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+    ${({ $darkTheme }) => $darkTheme && css`
+        background-color: #363636B8;
+    `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         padding: 16px;
     }
 `;
@@ -18,6 +22,10 @@ export const StyledTitle = styled.h1`
     font-size: 30px;
     font-weight: 900;
     line-height: 37px;
+
+    ${({ $darkTheme }) => $darkTheme && css`
+        color: ${({ theme }) => theme.color.white};
+    `}
 `;
 
 export const StyledList = styled.ul`
@@ -29,11 +37,11 @@ export const StyledList = styled.ul`
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 8px 115px;
 
-    @media (max-width: ${({theme}) => theme.breakpoint.tablet}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
         grid-template-columns: 1fr 1fr;
     }
 
-    @media (max-width: ${({theme}) => theme.breakpoint.mobile}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
         grid-template-columns: 1fr 1fr;
     }
 `;
@@ -42,11 +50,19 @@ export const StyledListItem = styled.li`
     &:before {
     content: "• ";
     color: ${({ theme }) => theme.color.scienceblue};
+
+    ${({ $darkTheme }) => $darkTheme && css`
+        color: ${({ theme }) => theme.color.dodgerblue}
+    `}
   }
-    color: ${({theme}) => theme.color.slategray};
+    color: ${({ theme }) => theme.color.slategray};
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     margin-top: 8px;
+
+    ${({ $darkTheme }) => $darkTheme && css`
+        color: ${({ theme }) => theme.color.white}
+    `}
 `;
 
