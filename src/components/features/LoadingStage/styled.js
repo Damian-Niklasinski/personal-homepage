@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 
 const spinning = keyframes`
     to{transform: rotate(1turn)}
@@ -15,6 +15,12 @@ export const StyledParagraph = styled.p`
   font-weight: 400;
   font-size: 20px;
   color: ${({ theme }) => theme.color.mineshaft};
+
+  ${({ $darkTheme }) =>
+    $darkTheme &&
+    css`
+      color: ${({ theme }) => theme.color.white};
+    `}
 `;
 
 export const StyledLoadingIcon = styled.img`
