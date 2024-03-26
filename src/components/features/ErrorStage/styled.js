@@ -10,6 +10,7 @@ export const StyledErrorWrapper = styled.div`
 export const StyledErrorIcon = styled.img`
   width: 48px;
   height: 48px;
+  background-color: ${({ theme }) => theme.color.mineshaft};
 
   ${({ $darkTheme }) =>
     $darkTheme &&
