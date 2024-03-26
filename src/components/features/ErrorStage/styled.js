@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const StyledErrorWrapper = styled.div`
   max-width: 1216px;
@@ -10,6 +10,12 @@ export const StyledErrorWrapper = styled.div`
 export const StyledErrorIcon = styled.img`
   width: 48px;
   height: 48px;
+
+  ${({ $darkTheme }) =>
+    $darkTheme &&
+    css`
+      color: ${({ theme }) => theme.color.white};
+    `}
 `;
 
 export const StyledErrorHeader = styled.h3`
@@ -17,6 +23,12 @@ export const StyledErrorHeader = styled.h3`
   font-size: 24px;
   color: ${({ theme }) => theme.color.mineshaft};
   margin-top: 16px;
+
+  ${({ $darkTheme }) =>
+    $darkTheme &&
+    css`
+      color: ${({ theme }) => theme.color.white};
+    `}
 `;
 
 export const StyledErrorParagraph = styled.p`
@@ -24,6 +36,12 @@ export const StyledErrorParagraph = styled.p`
   font-size: 20px;
   color: ${({ theme }) => theme.color.mineshaft};
   margin-top: 32px;
+
+  ${({ $darkTheme }) =>
+    $darkTheme &&
+    css`
+      color: ${({ theme }) => theme.color.white};
+    `}
 `;
 
 export const StyledErrorButton = styled.button`
@@ -33,4 +51,10 @@ export const StyledErrorButton = styled.button`
   border: 1px solid #d1d5da1a;
   border-radius: 4px;
   margin-top: 32px;
+
+  ${({ $darkTheme }) =>
+    $darkTheme &&
+    css`
+      background-color: ${({ theme }) => theme.color.dodgerblue};
+    `}
 `;

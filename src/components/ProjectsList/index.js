@@ -27,7 +27,7 @@ const ProjectsList = ({ darkTheme }) => {
         </StyledProjectList>
       );
     default:
-      return <ErrorStage />;
+      return <ErrorStage darkTheme={darkTheme} />;
   }
 };
 
