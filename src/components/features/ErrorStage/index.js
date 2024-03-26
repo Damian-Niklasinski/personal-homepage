@@ -5,11 +5,10 @@ import {
   StyledErrorParagraph,
   StyledErrorWrapper,
 } from "./styled";
-import DangerIcon from "../../../images/Danger.svg";
 
 const ErrorStage = ({ darkTheme }) => (
   <StyledErrorWrapper>
-    <StyledErrorIcon src={DangerIcon} alt="Danger" $darkTheme={darkTheme} />
+    <StyledErrorIcon $darkTheme={darkTheme} />
     <StyledErrorHeader $darkTheme={darkTheme}>
       Ooops! Something went wrong...
     </StyledErrorHeader>

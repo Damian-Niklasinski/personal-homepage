@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import DangerIcon from "../../../images/Danger.svg";
+import { ReactComponent as DangerIcon } from "../../../images/Danger.svg";
 
 export const StyledErrorWrapper = styled.div`
   max-width: 1216px;
@@ -8,7 +8,7 @@ export const StyledErrorWrapper = styled.div`
   margin-top: 95px;
 `;
 
-export const StyledErrorIcon = styled.img`
+export const StyledErrorIcon = styled(DangerIcon)`
   width: 48px;
   height: 48px;
   color: ${({ theme }) => theme.color.mineshaft};
