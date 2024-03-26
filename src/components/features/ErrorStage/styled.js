@@ -37,6 +37,7 @@ export const StyledErrorParagraph = styled.p`
   font-size: 20px;
   color: ${({ theme }) => theme.color.mineshaft};
   margin-top: 32px;
+  margin-bottom: 32px;
 
   ${({ $darkTheme }) =>
     $darkTheme &&
@@ -45,13 +46,13 @@ export const StyledErrorParagraph = styled.p`
     `}
 `;
 
-export const StyledErrorButton = styled.button`
+export const StyledErrorButton = styled.a`
   background-color: ${({ theme }) => theme.color.scienceblue};
   color: ${({ theme }) => theme.color.white};
   padding: 12px 16px 12px 16px;
   border: 1px solid #d1d5da1a;
   border-radius: 4px;
-  margin-top: 32px;
+  text-decoration: none;
 
   ${({ $darkTheme }) =>
     $darkTheme &&

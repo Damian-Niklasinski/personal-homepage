@@ -16,7 +16,13 @@ const ErrorStage = ({ darkTheme }) => (
       Sorry, failed to load Github projects.
       <br /> You can check them directly on Github.
     </StyledErrorParagraph>
-    <StyledErrorButton $darkTheme={darkTheme}>Go to Github</StyledErrorButton>
+    <StyledErrorButton
+      href="https://github.com/Damian-Niklasinski"
+      title="GitHub"
+      $darkTheme={darkTheme}
+    >
+      Go to Github
+    </StyledErrorButton>
   </StyledErrorWrapper>
 );
 
