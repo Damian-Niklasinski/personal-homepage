@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const gitHubAPI = "https://api.github.com/users/Damian-Niklasinski/repoos";
+const gitHubAPI = "https://api.github.com/users/Damian-Niklasinski/repos";
 
 const useProjectData = () => {
   const [projectData, setProjectData] = useState({
