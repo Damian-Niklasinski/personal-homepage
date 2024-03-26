@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import DangerIcon from "../../../images/Danger.svg";
 
 export const StyledErrorWrapper = styled.div`
   max-width: 1216px;
@@ -10,13 +11,12 @@ export const StyledErrorWrapper = styled.div`
 export const StyledErrorIcon = styled.img`
   width: 48px;
   height: 48px;
-  background-color: ${({ theme }) => theme.color.mineshaft};
-
+  color: ${({ theme }) => theme.color.mineshaft};
   ${({ $darkTheme }) =>
     $darkTheme &&
     css`
       color: ${({ theme }) => theme.color.white};
-    `}
+    `};
 `;
 
 export const StyledErrorHeader = styled.h3`
