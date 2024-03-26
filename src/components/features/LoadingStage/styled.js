@@ -24,8 +24,8 @@ export const StyledParagraph = styled.p`
 `;
 
 export const StyledLoadingIcon = styled.img`
-  width: 160px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   animation: ${spinning} 1s infinite linear;
   margin-top: 48px;
 `;
