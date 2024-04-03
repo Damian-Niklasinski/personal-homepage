@@ -84,14 +84,16 @@ export const HireMeButton = styled.a`
   border: 1px solid #d1d5da4d;
   border-radius: 4px;
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
 `;
 
-export const HireImage = styled.img``;
+export const HireImage = styled.img`
+  margin-right: 18px;
+`;
 
 export const HireText = styled.p`
   font-weight: 600;
+  margin-right: 16px;
 `;
