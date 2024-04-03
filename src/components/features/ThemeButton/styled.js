@@ -7,8 +7,8 @@ export const ThemeButtonContainer = styled.div`
   margin-bottom: 65px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-        display: none;
-    }
+    display: none;
+  }
 `;
 
 export const StyledButtonText = styled.span`
@@ -17,17 +17,26 @@ export const StyledButtonText = styled.span`
   font-weight: 700;
   margin-right: 12px;
 
-  ${({ $darkTheme }) => $darkTheme && css`
-    color: ${({ theme }) => theme.color.white};
-  `}
+  ${({ $darkTheme }) =>
+    $darkTheme &&
+    css`
+      color: ${({ theme }) => theme.color.white};
+    `}
 `;
 
 export const StyledThemeButton = styled.button`
   width: 55px;
   height: 26px;
-  border: 1px solid #6E7E91;
+  border: 1px solid #6e7e91;
   border-radius: 25px;
   background-color: ${({ theme }) => theme.color.mercury};
+  transition-duration: 1000ms;
+
+  ${({ $darkTheme }) =>
+    $darkTheme &&
+    css`
+      background-color: ${({ theme }) => theme.color.mineshaft};
+    `}
 `;
 
 export const StyledIconContainer = styled.div`
@@ -37,11 +46,14 @@ export const StyledIconContainer = styled.div`
   width: 20px;
   height: 20px;
   background-color: ${({ theme }) => theme.color.slategray};
-  transition-duration: 250ms;
+  transition-duration: 500ms;
 
-  ${({ $darkTheme }) => $darkTheme && css`
-    transform: translateX(100%);
-  `}
+  ${({ $darkTheme }) =>
+    $darkTheme &&
+    css`
+      transform: translateX(100%);
+      background-color: ${({ theme }) => theme.color.scorpion};
+    `}
 `;
 
 export const StyledSunIcon = styled.img`
