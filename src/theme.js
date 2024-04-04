@@ -10,6 +10,7 @@ export const theme = {
     black: "#000000",
     dodgerblue: "#2188FF",
     scorpion: "#5B5B5B",
+    tahiti: "#E58306",
   },
   breakpoint: {
     mobile: "767px",
