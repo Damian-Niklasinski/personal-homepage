@@ -1,30 +1,34 @@
-[Demo](https://damian-niklasinski.github.io/personal-homepage/)
+# Welcome to my Personal Homepage!
 
-# Getting Started with Create React App
+![Image](https://i.imgur.com/oXhiPNq.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Here u can check demo
 
-## Available Scripts
+[Demo](https://damian-niklasinski.github.io/personal-homepage/)  <-- CLICK ME!
 
-In the project directory, you can run:
+## General Informations
 
-### `npm start`
+In this project you can get to know my front-end skills and see what I would like to learn in the future. The purpose of the website is to show that I can create it aesthetically and that everything works together. You will also find all my contact details and social media links.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I also added all my projects from the GitHub repository using its API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The repository loading stage has also been added. When an error occurs, we will receive an appropriate message.
 
-### `npm test`
+## Technologies I used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Create React App
+- React.js
+- JSX
+- Java Script ES+6
+- Styled Components
+- Flex Box
+- Grid
+- Media Queries
+- Redux
+- API
+- Async / Await
+- Immutability
+- Local Storage
+- React Redux
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### This website is inspired by the course "Frontend Developer from the Basics" by the online programming school YouCode. 
