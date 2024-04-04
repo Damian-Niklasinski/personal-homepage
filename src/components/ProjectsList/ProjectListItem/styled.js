@@ -57,7 +57,7 @@ export const StyledListDescription = styled.p`
 export const StyledListLink = styled.a`
   text-decoration: none;
   transition-duration: 500ms;
-  color: ${({ theme }) => theme.color.iron};
+  color: ${({ theme }) => theme.color.dodgerblue};
   border-bottom: 1px solid ${({ theme }) => theme.color.iron};
 
   ${({ $darkTheme }) =>
