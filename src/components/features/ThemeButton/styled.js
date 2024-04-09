@@ -7,7 +7,7 @@ export const ThemeButtonContainer = styled.div`
   margin-bottom: 65px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    display: none;
+    justify-content: center;
   }
 `;
 
