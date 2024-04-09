@@ -79,7 +79,7 @@ export const HireMeButton = styled.a`
   width: 154px;
   height: 49px;
   margin-top: 32px;
-  background-color: ${({ theme }) => theme.color.tahiti};
+  background-color: ${({ theme }) => theme.color.scienceblue};
   color: ${({ theme }) => theme.color.white};
   border: 1px solid #d1d5da4d;
   border-radius: 4px;
