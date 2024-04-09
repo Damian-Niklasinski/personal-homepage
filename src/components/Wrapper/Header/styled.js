@@ -20,12 +20,14 @@ export const StyledImage = styled.img`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     max-width: 250px;
+    margin: auto;
   }
 `;
 
 export const HeaderItems = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     margin-top: 16px;
+    text-align: center;
   }
 `;
 
@@ -87,6 +89,10 @@ export const HireMeButton = styled.a`
   justify-content: center;
   align-items: center;
   text-decoration: none;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    margin: auto;
+  }
 `;
 
 export const HireImage = styled.img`
