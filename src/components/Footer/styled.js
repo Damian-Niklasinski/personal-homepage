@@ -11,12 +11,9 @@ export const StyledFooter = styled.footer`
   }
 `;
 
-export const StyledContainer = styled.div`
-  max-width: 670px;
-`;
-
-export const StyledCaption = styled.caption`
+export const StyledCaption = styled.div`
   display: flex;
+  max-width: 670px;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
