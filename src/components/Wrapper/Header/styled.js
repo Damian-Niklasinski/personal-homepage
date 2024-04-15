@@ -14,9 +14,9 @@ export const StyledHeader = styled.header`
 `;
 
 export const StyledImage = styled.img`
-  max-width: 398px;
-  height: 398px;
-  border-radius: 5%;
+  width: 450px;
+  height: auto;
+  border-radius: 10%;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     max-width: 250px;

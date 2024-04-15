@@ -1,4 +1,4 @@
-import myImage from "../../../images/ZDJECIE.jpg";
+import myImage from "../../../images/myPhoto.jpg";
 import mailIcon from "../../../images/Message.png";
 import {
   FirstItem,
