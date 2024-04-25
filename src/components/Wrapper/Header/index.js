@@ -21,7 +21,7 @@ const Header = ({ HeaderContent, darkTheme }) => (
       <SecondItem $darkTheme={darkTheme}>Damian Niklasiński</SecondItem>
       <ThirdItem $darkTheme={darkTheme}>
         👨🏻‍💻 I’m a passionate Frontend Developer in love with React,currently
-        looking for new job opportunities.
+        looking for new job opportunities!
       </ThirdItem>
       <HireMeButton
         href="mailto: damianiklasinski@gmail.com"
