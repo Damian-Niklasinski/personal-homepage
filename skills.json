@@ -1,34 +1,39 @@
 {
-    "learnedSkills": [
-      "Semantic & accessible HTML",
-      "React Router",
-      "Promises, Async/Await",
-      "Responsive Web Design",
-      "Redux-Saga",
-      "GitHub Pull Requests & Review",
-      "Teamwork",
-      "Redux (Toolkit)",
-      "Trello",
-      "Markdown",
-      "React Hooks",
-      "Scrum",
-      "Immutability",
-      "Error handling",
-      "NPM",
-      "CSS BEM convention",
-      "Working with API (fetch, axios)",
-      "React",
-      "CSS Grid",
-      "JavaScript: ES6+",
-      "Git",
-      "CSS Flexbox"
-    ],
-    "iWantToLearnSkills": [
-      "React Context",
-      "Cypress",
-      "TypeScript",
-      "Node.js",
-      "Unit testing",
-      "JS classes"
-    ]
-  }
+  "learnedSkills": [
+    "React",
+    "React Router",
+    "React Hooks",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "TailwindCss",
+    "Styled Components",
+    "Redux (Toolkit)",
+    "Redux-Saga",
+    "Semantic & accessible HTML",
+    "Promises, Async/Await",
+    "Responsive Web Design",
+    "GitHub Pull Requests & Review",
+    "Teamwork",
+    "Trello",
+    "Markdown",
+    "Scrum",
+    "Immutability",
+    "Error handling",
+    "NPM",
+    "CSS BEM convention",
+    "Working with API (fetch, axios)",
+    "CSS Grid",
+    "JavaScript: ES6+",
+    "Git",
+    "CSS Flexbox"
+  ],
+  "iWantToLearnSkills": [
+    "ASTRA",
+    "Cypress",
+    "Unit testing",
+    "AI Programming",
+    "Vue.js",
+    "Three.js"
+  ]
+}
